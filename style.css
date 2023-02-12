@@ -1,0 +1,145 @@
+body {
+	background-color: #C0C0C0;
+}
+
+#all {
+    max-width: 900px;
+    margin: auto;
+}
+
+#header {
+	background-color: #F0F0F0;
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	padding: 30px 50px 15px;
+	text-align: center;
+}
+
+#password {
+	margin-bottom: 10px;
+}
+
+#log {
+	color: #A0A0A0;
+	height: 30px;
+	text-align: right;
+}
+
+#info {
+	display: flex;
+	text-align: center;
+}
+
+#info-left {
+	background-color: #F0F0F0;
+	width: calc(50% - 5px);
+	margin-right: 10px;
+	padding: 15px;
+}
+
+#info-right {
+	background-color: #F0F0F0;
+	width: calc(50% - 5px);
+	padding: 15px;
+}
+
+#info-basic {
+	background-color: #E0E0E0;
+	width: auto;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+#info-rule {
+	background-color: #E0E0E0;
+	width: auto;
+	margin-bottom: 15px;
+}
+
+#info-detailed-rule {
+	background-color: #FCFCFC;
+	width: auto;
+	margin-top: 10px;
+}
+
+#info-other {
+	background-color: #E0E0E0;
+	width: auto;
+}
+
+#info-standard {
+	background-color: #E0E0E0;
+	width: auto;
+	margin-bottom: 15px;
+}
+
+#info-limited {
+	background-color: #E0E0E0;
+	width: auto;
+}
+
+#detailed-rule {
+	text-align: center;
+}
+
+.info-content {
+	padding: 10px;
+	text-align: center;
+}
+
+.caption {
+	padding: 2px 5px;
+	text-align: left;
+	background-color: #C0C0C0;
+}
+
+#caption-standard {
+	background-color: #90D090;
+}
+
+#caption-limited {
+	background-color: #9090D0;
+}
+
+.password-input {
+	height: 32px;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: center;
+}
+
+#password-a {
+	width: 112px;
+	background-color: #FFE0E0;
+}
+
+#password-b {
+	width: 90px;
+	background-color: #FFFFE0;
+}
+
+#password-c {
+	width: 112px;
+	background-color: #E0FFF4;
+}
+
+.info-table {
+	width: 100%;
+	max-width: 340px;
+	table-layout: fixed;
+	margin: auto;
+}
+
+.info-table td {
+	text-align: right;
+}
+
+.info-table td:nth-child(1) {
+	width: 130px;
+}
+
+select {
+	width: 100%;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="robots" content="noindex,nofollow">
+		<title>XIゴ ATTACK パスワード</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="all">
+			<div id="header">
+				<div id="password">
+					<input type="text" id="password-a" class="password-input" size="10">
+					<input type="text" id="password-b" class="password-input" size="10">
+					<input type="text" id="password-c" class="password-input" size="10">
+				</div>
+				<div id="log">
+				</div>
+			</div>
+			<div id="info">
+				<div id="info-left">
+					<div id="caption-basic" class="caption">
+						基本情報
+					</div>
+					<div id="info-basic" class="info-content">
+						<table class="info-table">
+							<tbody>
+								<tr>
+									<td>プレイヤー数</td>
+									<td><select id="box-player"></select></td>
+								</tr>
+								<tr>
+									<td>スタイル</td>
+									<td><select id="box-style"></select></td>
+								</tr>
+								<tr>
+									<td>モード</td>
+									<td><select id="box-mode"></select></td>
+								</tr>
+								<tr>
+									<td>足の速さ</td>
+									<td><select id="box-speed"></select></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					
+					<div id="caption-rule" class="caption">
+						ルール
+					</div>
+					<div id="info-rule" class="info-content">
+						<table class="info-table">
+							<tbody>
+								<tr>
+									<td>評価方法</td>
+									<td><select id="box-eval"></select></td>
+								</tr>
+								<tr>
+									<td>基本ルール</td>
+									<td><select id="box-rule"></select></td>
+								</tr>
+							</tbody>
+						</table>
+						<div id="info-detailed-rule">
+							<table class="info-table">
+								<tbody>
+									<tr>
+										<td>詳細ルール</td>
+										<td>
+											<div id="detailed-rule">
+												<select class="detailed" id="box-rule-a"></select><br>
+												<label id="label-rule-b"></label><br>
+												<select class="detailed" id="box-rule-c"></select><br>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					<div id="caption-other" class="caption">
+						その他
+					</div>
+					<div id="info-other" class="info-content">
+						<table class="info-table">
+							<tbody>
+								<tr>
+									<td>乱数シード</td>
+									<td><select id="box-random"></select></td>
+								</tr>
+								<tr>
+									<td>大会ID</td>
+									<td><select id="box-ranking"></select></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div id="info-right">
+					<div id="caption-standard" class="caption">
+						STANDARD のみ
+					</div>
+					<div id="info-standard" class="info-content">
+						<table class="info-table">
+							<tbody>
+								<tr>
+									<td>開始レベル</td>
+									<td><select id="box-level-begin"></select></td>
+								</tr>
+								<tr>
+									<td>終了レベル</td>
+									<td><select id="box-level-end"></select></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div id="caption-limited" class="caption">
+						LIMITED のみ
+					</div>
+					<div id="info-limited" class="info-content">
+						<table class="info-table">
+							<tbody>
+								<tr>
+									<td>ダイス発生間隔</td>
+									<td><select id="box-interval"></select></td>
+								</tr>
+								<tr>
+									<td>最低ライン</td>
+									<td><select id="box-thres-low"></select></td>
+								</tr>
+								<tr>
+									<td>減速ライン</td>
+									<td><select id="box-thres-high"></select></td>
+								</tr>
+								<tr>
+									<td>ワイルドダイス率</td>
+									<td><select id="box-wild"></select></td>
+								</tr>
+								<tr>
+									<td>自爆ダイス率</td>
+									<td><select id="box-explosion"></select></td>
+								</tr>
+								<tr>
+									<td>爆発時間</td>
+									<td><select id="box-duration"></select></td>
+								</tr>
+								<tr>
+									<td>初期ダイス数</td>
+									<td><select id="box-initial"></select></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="attack.js" charset="utf-8"></script>
+	</body>
+</html>
