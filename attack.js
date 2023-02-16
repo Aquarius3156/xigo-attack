@@ -275,7 +275,7 @@ class Options {
 
     static ranking = [];
     
-    static {
+    static init() {
         for (let i = 1; i <= 256; ++i) {
             Options.level.push(i);
         }
@@ -887,6 +887,7 @@ function addEventListenerToElements() {
 }
 
 function init() {
+    Options.init();
     addEventListenerToElements();
     setFixedOptions();
     updatePassword();
